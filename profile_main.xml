@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    card_view:cardCornerRadius="8dp"
+    android:background="@color/Teal"
+    card_view:cardElevation="4dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Teal"
+    android:layout_margin="10dp"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BackGround Change"
+        android:textSize="25dp"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView3"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+    <TextView
+        android:layout_below="@+id/textView4"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignOut"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerVertical="true"/>
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
